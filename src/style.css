@@ -1,0 +1,150 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.header h2 {
+  padding-top: 20px;
+  margin-left: 40px;
+}
+.content {
+  margin-left: 40px;
+}
+nav {
+  margin-right: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+li {
+  margin-left: 20px;
+  padding: 5px;
+}
+#Upper-content {
+  padding: 20px;
+  background-color: rgb(197, 185, 185);
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#Upper-content p {
+  width: 30%;
+}
+#middle-content {
+  width: 100%;
+  display: inline-flex;
+  padding-top: 30px;
+}
+.container1 {
+  width: 30%;
+}
+.container3 {
+  width: 30%;
+}
+.container2 {
+  width: 30%;
+}
+.box {
+  background-color: grey;
+  width: 70%;
+  height: 100px;
+  padding: 20px;
+  margin-left: 60px;
+}
+.content h2 {
+  text-align: center;
+}
+.content p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content {
+  text-align: center;
+}
+.subsr {
+  background-color: grey;
+  padding-bottom: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.subsr h2 {
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.subsr button {
+  background-color: blue;
+  color: white;
+  height: 10%;
+  padding-left: 5px;
+  margin-top: 50px;
+}
+.subsr input {
+  margin-top: 50px;
+  padding-left: 20px;
+  margin-right: 5px;
+  height: 10%;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.l1 {
+  margin-left: 20px;
+}
+.r1 {
+  margin-right: 30px;
+}
+@media screen and (max-width: 600px) {
+  #Upper-content p {
+    width: 100%;
+  }
+  #middle-content {
+    display: block;
+    width: 100%;
+  }
+  .container1 {
+    display: block;
+    width: 100%;
+  }
+  .container2 {
+    display: block;
+    width: 100%;
+  }
+  .container3 {
+    display: block;
+    width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .header h2 {
+    display: flex;
+    margin-left: 5px;
+  }
+  .content {
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+  .subsr input {
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 10px;
+  }
+  .subsr h2 {
+    font-size: 20px !important;
+    margin-bottom: 0px;
+  }
+  .subsr {
+    width: 100%;
+    display: block;
+  }
+}
